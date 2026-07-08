@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MR.TD Cab Service</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+
+<header>
+
+    <h2 class="logo">MR.TD CAB SERVICE</h2>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#cars">Cars</a>
+        <a href="#booking">Booking</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <div class="overlay">
+
+        <h1>Happy Journey</h1>
+
+        <p>Airport • Local • Outstation</p>
+
+        <button onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">
+            Book Now
+        </button>
+
+    </div>
+
+</section>
+
+<section class="cars" id="cars">
+
+<h2>Available Cars</h2>
+
+<div class="car-container">
+
+<div class="card">
+
+<!-- Paste Ertiga Image URL Below -->
+<img src="https://raw.githubusercontent.com/makvanadixi/Image/refs/heads/main/Suzuki_Ertiga.jpg" alt="Ertiga">
+
+<h3>Ertiga</h3>
+
+<p>6+1 Seater</p>
+
+<h4>₹14/km</h4>
+
+</div>
+
+<div class="card">
+
+<!-- Paste Dzire Image URL Below -->
+<img src="https://raw.githubusercontent.com/makvanadixi/Image/refs/heads/main/Suzuki_Dzire.jpg" alt="Dzire">
+
+<h3>Dzire</h3>
+
+<p>4 Seater</p>
+
+<h4>₹12/km</h4>
+
+</div>
+
+<div class="card">
+
+<!-- Paste Aura Image URL Below -->
+<img src="https://raw.githubusercontent.com/makvanadixi/Image/refs/heads/main/hyundai-aura.jpg" alt="Aura">
+
+<h3>Aura</h3>
+
+<p>4 Seater</p>
+
+<h4>₹11/km</h4>
+
+</div>
+
+<div class="card">
+
+<!-- Paste Innova Image URL Below -->
+<img src="https://raw.githubusercontent.com/makvanadixi/Image/refs/heads/main/toyota%20innova.jpg" alt="Innova">
+
+<h3>Innova</h3>
+
+<p>7+1 Seater</p>
+
+<h4>₹18/km</h4>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="booking">
+
+<h2>Book Your Cab</h2>
+
+<form id="bookingForm">
+
+<input type="text" id="name" placeholder="Full Name" required>
+
+<input type="tel" id="mobile" placeholder="Mobile Number" required>
+
+<input type="text" id="pickup" placeholder="Pickup Location" required>
+
+<input type="text" id="drop" placeholder="Drop Location" required>
+
+<select id="car">
+
+<option>Ertiga</option>
+<option>Dzire</option>
+<option>Aura</option>
+<option>Innova</option>
+
+</select>
+
+<input type="date" id="date" required>
+  <input type="time" id="time" required>
+
+<button type="submit">Confirm Booking</button>
+
+</form>
+
+</section>
+
+<footer id="contact">
+
+<h3>MR.TD CAB SERVICE</h3>
+
+<p>Airport | Local | Outstation</p>
+
+<p>Phone : +91 9714627422</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>S
