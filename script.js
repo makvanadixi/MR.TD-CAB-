@@ -27,7 +27,7 @@ document.getElementById("bookingForm").addEventListener("submit", function (e) {
 
     emailjs.send(
         "service_g8n2huf",
-        "template_tqt528y",
+        "service_g8n2huf",
         params
     )
     .then(function () {
